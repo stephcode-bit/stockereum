@@ -1,0 +1,42 @@
+{
+  "name": "Stockereum Runner Radar",
+  "short_name": "Runner Radar",
+  "description": "Find early token runners on the Stockereum (Ethereum) launchpad before they pump. Real-time rugpull guardrails, copyable contract addresses, and 2x-3x runner detection powered by the Ave.ai v2 API.",
+  "id": "/",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "any",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "categories": ["finance", "productivity", "utilities"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any" },
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Live runners",
+      "short_name": "Runners",
+      "description": "Open the live runner feed",
+      "url": "/?source=pwa_shortcut&tab=runners",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Search by contract address",
+      "short_name": "Search",
+      "description": "Look up a specific token CA",
+      "url": "/?source=pwa_shortcut&tab=search",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ],
+  "screenshots": [],
+  "edge_side_panel": { "preferred_width": 400 }
+}
